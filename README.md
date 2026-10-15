@@ -170,12 +170,12 @@ Model final adalah CNN improved, run seed 1 (validasi tertinggi).
 
 ## Anggota kelompok
 
-| Nama | NIM | Tugas |
-| --- | --- | --- |
-| [isi] | [isi] | [isi] |
-| [isi] | [isi] | [isi] |
-| [isi] | [isi] | [isi] |
-| [isi] | [isi] | [isi] |
+| Nama | NIM | 
+| --- | --- | 
+| Aditya Wahyu Wijanarko | 25/574566/PPA/07251 | 
+| Nabila Hermawan | 25/572261/PPA/07190 | 
+| Balma Bahira Adzkia | 25/572255/PPA/07189 | 
+| Siti Syakirah | 25/573284/PPA/07217 | 
 
 ## Referensi
 
