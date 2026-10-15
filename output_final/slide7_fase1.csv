@@ -1,0 +1,7 @@
+name,arch,lr,optimizer,dropout,aug,unfreeze_last,params,train_acc,val_acc,test_acc,test_f1_macro,time_s,gap_train_val,best_val_loss
+E2_improved_cnn,improved,0.001,adam,0.5,False,,425332,0.9902,0.9857,0.9575,0.9559,2775,0.0045,0.0595
+E7_mobilenetv2_finetune,mobilenetv2,0.001,adam,0.3,False,30.0,2283604,0.9923,0.9196,0.935,0.9341,1792,0.0727,0.2372
+E6_mobilenetv2_frozen,mobilenetv2,0.001,adam,0.3,False,,2283604,0.9292,0.8767,0.8808,0.8798,1089,0.0525,0.4564
+E1_cnn_lecture,lecture,0.001,adam,0.0,False,,1186100,1.0,0.5762,0.58,0.5638,103,0.4238,1.464
+E0b_ann_bn,ann_bn,0.001,adam,0.3,False,,3182612,1.0,0.552,0.5983,0.5808,202,0.448,1.6465
+E0_ann,ann,0.0001,adam,0.3,False,,3181460,0.5587,0.3953,0.4058,0.3919,193,0.1634,2.0133

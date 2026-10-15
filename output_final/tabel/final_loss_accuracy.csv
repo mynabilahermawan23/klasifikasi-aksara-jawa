@@ -1,0 +1,4 @@
+split,loss,accuracy
+train,0.0106,0.9994
+val,0.0619,0.9799
+test,0.1237,0.9508

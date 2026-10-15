@@ -1,0 +1,15 @@
+{
+  "lr": 0.001,
+  "optimizer": "adam",
+  "dropout": 0.5,
+  "aug": false,
+  "epochs": 15,
+  "epochs_head": 5,
+  "epochs_ft": 5,
+  "finetune": false,
+  "unfreeze_last": 30,
+  "seed": 1,
+  "phase": 3,
+  "name": "S_E2_improved_cnn_seed1",
+  "arch": "improved"
+}

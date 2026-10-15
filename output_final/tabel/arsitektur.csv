@@ -1,0 +1,6 @@
+model,total_params,trainable_params,susunan
+ANN (E0),3181460,3181460,Flatten -> Dense -> Dense -> Dropout -> Dense
+ANN + BatchNorm (E0b),3182612,3181844,Flatten -> Dense -> BatchNormalization -> Activation -> Dense -> BatchNormalization -> Activation -> Dropout -> Dense
+CNN materi (E1),1186100,1186100,Conv2D -> MaxPooling2D -> Conv2D -> MaxPooling2D -> Flatten -> Dense -> Dropout -> Dense
+CNN improved (E2),425332,424372,Conv2D -> BatchNormalization -> Activation -> MaxPooling2D -> Conv2D -> BatchNormalization -> Activation -> MaxPooling2D -> Conv2D -> BatchNormalization -> Activation -> MaxPooling2D -> Conv2D -> BatchNormalization -> Activation -> MaxPooling2D -> GlobalAveragePooling2D -> Dense -> Dropout -> Dense
+MobileNetV2 (E6/E7),2283604,25620,Lambda -> Functional -> GlobalAveragePooling2D -> Dropout -> Dense
